@@ -316,6 +316,14 @@ nav {
   margin: 50px auto 20px auto;
 }
 
+
+.menu-item{
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.restaurant-menu:has(.menu-item :hover) .menu-item:not(:hover) {
+  filter: blur(4px);
+  transform:scale(.9);
+}
 summary {
   padding: 1em;
   border: 1px solid #b2b2b2;

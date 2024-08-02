@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styel.css" />
 </head>
 <body>
@@ -26,7 +28,7 @@
         </nav>
       </div>
  <!-- Restaurant Menu -->
- <div class="section" id="menu">
+ <div class="section" id="menu" data-aos="zoom-out-up">
     <div class="container">
       <div class="container">
         <div class="restaurant-menu">
@@ -205,7 +207,7 @@
         </div>
   
         <div class="copyright">
-          <p>Copyright &copy; 2022. All Rights Reserved.</p>
+          <p>Copyright &copy; 2024. All Rights Reserved.</p>
         </div>
       </div>
       
@@ -220,5 +222,13 @@
      nomodule
      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
    ></script>
+
+    <!-- aos -->
+  <script src="../../assets/vendor/aos/dist/aos.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+          AOS.init();
+  </script>
 </body>
 </html>

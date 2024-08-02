@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Lover</title>
+     <!-- aos -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styel.css" />
     <link rel="stylesheet" href="./css/about.css">
@@ -55,7 +57,7 @@
     <!-- End Hero Section -->
 
     <!-- How It Works -->
-    <div class="section" id="how-it-works">
+    <div class="section" id="how-it-works"  data-aos="fade-right">
       <h2 class="secondary">How It Works</h2>
 
       <div class="container flex">
@@ -279,7 +281,7 @@
       </div>
 
       <div class="copyright">
-        <p>Copyright &copy; 2022. All Rights Reserved.</p>
+        <p>Copyright &copy; 2024. All Rights Reserved.</p>
       </div>
     </div>
     
@@ -295,5 +297,13 @@
       nomodule
       src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
     ></script>
+
+    <!-- aos -->
+  <script src="../../assets/vendor/aos/dist/aos.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+          AOS.init();
+  </script>
   </body>
 </html>
